@@ -1,0 +1,85 @@
+Fonctions
+
+Une fonction regroupe un ensemble d'instructions réalisant une tâche précise.
+
+Une fonction peut :
+
+recevoir des paramètres
+retourner une ou plusieurs valeurs
+retourner une erreur
+accepter un nombre variable d'arguments
+
+En Go, les erreurs sont généralement retournées par les fonctions plutôt que gérées par des exceptions.
+
+Les closures sont des fonctions qui peuvent accéder aux variables définies dans leur environnement de création.
+
+Contrôle de flux
+
+Go utilise principalement :
+
+if pour les conditions
+switch pour les choix multiples
+for pour les boucles
+
+Le mot-clé break permet de quitter une boucle ou un switch.
+
+Le mot-clé continue permet de passer directement à l'itération suivante.
+
+range permet de parcourir facilement les slices, maps, chaînes de caractères et autres collections.
+
+defer permet d'exécuter une instruction juste avant la fin d'une fonction.
+
+Structs et méthodes
+
+Une struct permet de regrouper plusieurs informations liées à une même entité.
+
+Par exemple, une struct Produit peut contenir un nom, un prix et un stock.
+
+Les méthodes permettent d'ajouter des comportements à une struct.
+
+Une méthode peut :
+
+simplement consulter les données
+modifier directement les données de la struct
+
+Go ne possède pas de classes ni d'héritage comme Java ou C#.
+
+Pour réutiliser des structures, Go utilise l'embedding.
+
+Collections
+
+Les collections permettent de stocker plusieurs valeurs.
+
+Les principales collections en Go sont :
+
+Les tableaux (arrays)
+Les slices
+Les maps
+
+Les slices sont les collections les plus utilisées car elles sont dynamiques.
+
+Les maps permettent de stocker des données sous forme clé / valeur.
+
+Avant d'utiliser une map pour ajouter des données, elle doit être initialisée.
+
+Gestion des erreurs
+
+Go ne possède pas de système d'exceptions comme Java ou C#.
+
+Les erreurs sont représentées par des valeurs retournées par les fonctions.
+
+Le développeur doit vérifier explicitement si une erreur est présente.
+
+Cette approche rend les erreurs visibles directement dans le code et évite les comportements cachés.
+
+Modules et compilation
+
+Un module représente un projet Go.
+
+Le fichier go.mod contient les informations du module et ses dépendances.
+
+La commande go run permet d'exécuter directement un programme.
+
+La commande go build permet de compiler le programme afin de générer un exécutable.
+
+La gestion des dépendances est automatiquement réalisée grâce au système de modules de Go.
