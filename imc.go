@@ -1,7 +1,8 @@
+
 package main
 
 import "fmt"
-
+//date 29/05/2026
 func main() {
 
 	// Variables
@@ -13,7 +14,7 @@ func main() {
 	const IMCNormal = 25.0
 	const IMCSurpoids = 30.0
 
-	// Calcul IMC
+	// Calcul 
 	imc := poids / (taille * taille)
 
 	// Affichage IMC
